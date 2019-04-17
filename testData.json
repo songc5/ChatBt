@@ -1,0 +1,1303 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "i am looking for an indian spot",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "search for restaurants",
+        "intent": "restaurant_search",
+        "entities": []
+      },
+      {
+        "text": "anywhere in the west",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "west",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "central indian restaurant",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "central",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Hello, I'm Tom",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Tom",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hey, I'm Tom",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "Tom",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Nice to meet you, my name is Tom",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "Tom",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hi, I'm Chuwen",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Chuwen",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hello, you can call me Chuwen",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Chuwen",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "How are you? I'm Jason",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "Jason",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "How are you? you can call me James",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "James",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I'm interested in Apple.",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Apple",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "I'm interested in Tesla.",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Tesla",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "I'm interested in ABAXIS.",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "ABAXIS",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "I'm interested in Arctic Cat",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "Arctic Cat",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "I'm interested in Aceto Corporation",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "Aceto Corporation",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "I'm interested in Connecticut Water Service",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 18,
+            "end": 43,
+            "value": "Connecticut Water Service",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "i'm interested in Digi International Inc",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 18,
+            "end": 40,
+            "value": "Digi International Inc",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "I'm interested in The Dixie Group",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 18,
+            "end": 33,
+            "value": "The Dixie Group",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about Electronic Arts",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "Electronic Arts",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about eBay",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "eBay",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "tell me about Echo Therapeutics",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "Therapeutics",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about ImmuCell Corporation",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 14,
+            "end": 34,
+            "value": "ImmuCell Corporation",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about ICU Medical",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "ICU Medical",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Tell me something about IDEXX Laboratories",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 24,
+            "end": 42,
+            "value": "IDEXX Laboratories",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Tell me something about Ingles Markets",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "Ingles Markets",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "What about Independent Bank Corp?",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 11,
+            "end": 32,
+            "value": "Independent Bank Corp",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "how about Infinity Pharmaceuticals?",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 10,
+            "end": 34,
+            "value": "Infinity Pharmaceuticals",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "what about iPass",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "iPass",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "what about Itron",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Itron",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "how about Collabrium Japan Acquisition Corporation?",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 10,
+            "end": 50,
+            "value": "Collabrium Japan Acquisition Corporation",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "How about Jason Industries",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "Jason Industries",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "how about Layne Christensen Company",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 10,
+            "end": 35,
+            "value": "Layne Christensen Company",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "What's the price of Apple yesterday?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Apple",
+            "entity": "company"
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "value": "yesterday",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "What's the price of Lakeland Industries yesterday?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 39,
+            "value": "Lakeland Industries",
+            "entity": "company"
+          },
+          {
+            "start": 40,
+            "end": 49,
+            "value": "yesterday",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "What's the price of Lamar Advertising Company yesterday?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 45,
+            "value": "Lamar Advertising Company",
+            "entity": "company"
+          },
+          {
+            "start": 46,
+            "end": 55,
+            "value": "yesterday",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "What's the price of KongZhong Corporation yesterday?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "KongZhong Corporation",
+            "entity": "company"
+          },
+          {
+            "start": 42,
+            "end": 51,
+            "value": "yesterday",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "What's the price of Lakes Entertainment now?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 39,
+            "value": "Lakes Entertainment",
+            "entity": "company"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "now",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "what's the value of Leading Brands Inc now?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 38,
+            "value": "Leading Brands Inc",
+            "entity": "company"
+          },
+          {
+            "start": 39,
+            "end": 42,
+            "value": "now",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "What's the price of Apple at March 4th?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Apple",
+            "entity": "company"
+          },
+          {
+            "start": 29,
+            "end": 38,
+            "value": "March 4th",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "what's the value of Lifetime Brands at April 8th?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "Lifetime Brands",
+            "entity": "company"
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "April 8th",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "what's the price of Liberty Global plc at January 1st",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 38,
+            "value": "Liberty Global plc",
+            "entity": "company"
+          },
+          {
+            "start": 42,
+            "end": 53,
+            "value": "January 1st",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "tell me the price of LCNB Corporation at July 4",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 21,
+            "end": 37,
+            "value": "LCNB Corporation",
+            "entity": "company"
+          },
+          {
+            "start": 41,
+            "end": 47,
+            "value": "July 4",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "tell me the price of Lifetime Brands at Nov 12",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 40,
+            "end": 46,
+            "value": "Nov 12",
+            "entity": "time"
+          },
+          {
+            "start": 21,
+            "end": 36,
+            "value": "Lifetime Brands",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "tell me the price of Key Technology at 12-4",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 21,
+            "end": 35,
+            "value": "Key Technology",
+            "entity": "company"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "12-4",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "what's the value of Levy Acquisition Corp 12/11/03",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "Levy Acquisition Corp",
+            "entity": "company"
+          },
+          {
+            "start": 42,
+            "end": 50,
+            "value": "12/11/03",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "price of Lifevantage Corporation at 1997-3-4",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 9,
+            "end": 32,
+            "value": "Lifevantage Corporation",
+            "entity": "company"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": "1997-3-4",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "what's the price of LHC Group 12/4",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "LHC Group",
+            "entity": "company"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "12/4",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "tell me the price",
+        "intent": "check_price",
+        "entities": []
+      },
+      {
+        "text": "what's the price?",
+        "intent": "check_price",
+        "entities": []
+      },
+      {
+        "text": "what's the value of it?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 22,
+            "value": "it",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "what is the price ",
+        "intent": "check_price",
+        "entities": []
+      },
+      {
+        "text": "price",
+        "intent": "check_price",
+        "entities": []
+      },
+      {
+        "text": "value",
+        "intent": "check_price",
+        "entities": []
+      },
+      {
+        "text": "price from 3.4 to 3.7",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "3.4",
+            "entity": "time"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "3.7",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "price from 2015.12.1 to 2016.1.20",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "2015.12.1",
+            "entity": "time"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "2016.1.20",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "value from march 4th to april 1st",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "march 4th",
+            "entity": "time"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "april 1st",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "could you check the price of Lifetime Brands from 2015.4.3 to 2015.4.10",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 29,
+            "end": 44,
+            "value": "Lifetime Brands",
+            "entity": "company"
+          },
+          {
+            "start": 50,
+            "end": 58,
+            "value": "2015.4.3",
+            "entity": "time"
+          },
+          {
+            "start": 62,
+            "end": 71,
+            "value": "2015.4.10",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "could you check the price of Apple from 1.20 to 1.23 for me?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Apple",
+            "entity": "company"
+          },
+          {
+            "start": 40,
+            "end": 44,
+            "value": "1.20",
+            "entity": "time"
+          },
+          {
+            "start": 48,
+            "end": 52,
+            "value": "1.23",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "check price 1/21 - 2/1",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "1/21",
+            "entity": "time"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "2/1",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "check price 3/5 - 3/7",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "3/5",
+            "entity": "time"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "3/7",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "check price 1.11 - 1.21",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "1.11",
+            "entity": "time"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "1.21",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "tell me the price from 7-30 to 8-3",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "7-30",
+            "entity": "time"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "8-3",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "tell me the price from 1-20 to 1-30",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "1-20",
+            "entity": "time"
+          },
+          {
+            "start": 31,
+            "end": 35,
+            "value": "1-30",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "could you check the price of it from oct 1st to dec 11 please?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 29,
+            "end": 31,
+            "value": "it",
+            "entity": "company"
+          },
+          {
+            "start": 37,
+            "end": 44,
+            "value": "oct 1st",
+            "entity": "time"
+          },
+          {
+            "start": 48,
+            "end": 54,
+            "value": "dec 11",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "price from 3.3 to 3.20",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "3.20",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "3.3",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "volume from 5.12 to 6.21",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "5.12",
+            "entity": "time"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "6.21",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "check price 4.20 to 4.25",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "4.20",
+            "entity": "time"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "4.25",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "I'm also interested in apple",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "apple",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "i also interested in apollo inc",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "apollo inc",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Im also what to know about Arbor Realty Trust.",
+        "intent": "pickStock",
+        "entities": [
+          {
+            "start": 27,
+            "end": 45,
+            "value": "Arbor Realty Trust",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "give me the price of apple form 3/11 to 4/1",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "apple",
+            "entity": "company"
+          },
+          {
+            "start": 32,
+            "end": 36,
+            "value": "3/11",
+            "entity": "time"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "4/1",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "what's the price of LHC Group at 12/4",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": " LHC Group",
+            "entity": "company"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "12/4",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "what's the price of arbor at 12/4",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "arbor",
+            "entity": "company"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "12/4",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "tell me the price of tesla at 1/11",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "tesla",
+            "entity": "company"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "1/11",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "what's the price of apple at 2/7?",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "apple",
+            "entity": "company"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "2/7",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "tell me the volume of Google at 4/11",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Google",
+            "entity": "company"
+          },
+          {
+            "start": 32,
+            "end": 36,
+            "value": "4/11",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "tell me the summary of it at 2/9",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 23,
+            "end": 25,
+            "value": "it",
+            "entity": "company"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "2/9",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the summary of AAPL",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "show me the summary of AAME",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "AAME",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Show me the summary of AAOI",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "AAOI",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "tell me the summary of BIIB",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "BIIB",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "show me the summary of apple",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "apple",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "show me the summary of tesla",
+        "intent": "check_price",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "tesla",
+            "entity": "company"
+          }
+        ]
+      }
+    ]
+  }
+}
